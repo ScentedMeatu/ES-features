@@ -1,55 +1,10 @@
 ------------------------------------------------------------------------------------------------------------------------------
-1.Class
+1. includes()
 
-class is blueprint of object.
-before this the feature called prototype chaining and constructor function was used to create class and object.
-
-class car {
-   constructor(name, brand) {
-     this.name = name;
-     this.brand = brand;
-   }
- }
+method used to check if the element is present in array or not
 ------------------------------------------------------------------------------------------------------------------------------
-2. Module
+2. Exponential operator
 
-we can export any function or variable from a file and use it in another using export and import.
-------------------------------------------------------------------------------------------------------------------------------
-3. Arrow function
-
-() => {…}, short for function. without function keyword and name.
-const add = (a, b) => {a + b};
-------------------------------------------------------------------------------------------------------------------------------
-4. Function parameter default value
-
-we can use default values of function parameter while declaring a function.
-function sample(a=10,b=20){
-}
-------------------------------------------------------------------------------------------------------------------------------
-5. Template literal
-
-using ${ } to concatinate string after declaring is with backticks ``.
-------------------------------------------------------------------------------------------------------------------------------
-6. Destructuring assignment
-
-an array elements are accessed by the use of another array.
-let arr = [1,2,3,4];
-let [one,two,three,four] = arr;
-------------------------------------------------------------------------------------------------------------------------------
-7. Spread operator
-
-an operator used to copy the contents of array or object into another.
-let arr1 = [...arr];
-------------------------------------------------------------------------------------------------------------------------------
-8. Object property shorthand
-
-an variable can be easily assigned as field name for an object.
-------------------------------------------------------------------------------------------------------------------------------
-9. Promise
-
-The promise is a solution to asynchronous (non-synchronous) writing, which is more elegant than the original callback writing.
-------------------------------------------------------------------------------------------------------------------------------
-10. let, const
-
-let was introduced because var cannot be redeclared in local scope again with same name.
+used as power
+console.log(2**3)//8
 ------------------------------------------------------------------------------------------------------------------------------
