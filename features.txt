@@ -1,17 +1,16 @@
 ------------------------------------------------------------------------------------------------------------------------------
-1. Array.prototype.flat()
+1. promise.allSettled
 
-used to flatten array with depth.
-let arr = [1,[2,[3,4],5],6];
-arr.flat(2); //[1,2,3,4,5,6]
-2 is the depth.
-arr.flat(); //[1,2,[3,4],5,6]
+this traverses array of promises to give the result of all resolved promises.
 ------------------------------------------------------------------------------------------------------------------------------
-2. trimStart() & trimEnd()
+2. optional chaining
 
-used to remove spaces at beginning and end.
+using ternary operator ?.
 ------------------------------------------------------------------------------------------------------------------------------
-3. Object.fromEntries()
+3. nullish coalesing operator ??
 
-used to convert key and value pairs (maps) to Object.
+0 is considered false.
+so we use ?? to avoid that.
+let value = 0;
+let num = value??1;
 ------------------------------------------------------------------------------------------------------------------------------
