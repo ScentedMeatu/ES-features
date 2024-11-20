@@ -1,20 +1,17 @@
 ------------------------------------------------------------------------------------------------------------------------------
-1. await in loop
+1. Array.prototype.flat()
 
-await can be used inside a loop
+used to flatten array with depth.
+let arr = [1,[2,[3,4],5],6];
+arr.flat(2); //[1,2,3,4,5,6]
+2 is the depth.
+arr.flat(); //[1,2,[3,4],5,6]
 ------------------------------------------------------------------------------------------------------------------------------
-2. promise.finally()
+2. trimStart() & trimEnd()
 
-using finally() in promise.
-block always gets executed. 
+used to remove spaces at beginning and end.
 ------------------------------------------------------------------------------------------------------------------------------
-3. rest
+3. Object.fromEntries()
 
-using ...rest in function parameter makes it accept multiple arguments.
-------------------------------------------------------------------------------------------------------------------------------
-4. REGEXP
-
-used with strings for conditions
-const regExpDate = /([0-9]{4})-([0-9]{2})-([0-9]{2})/
-const match = regExpDate.exec('2020-06-25');
+used to convert key and value pairs (maps) to Object.
 ------------------------------------------------------------------------------------------------------------------------------
