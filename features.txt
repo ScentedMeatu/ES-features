@@ -1,20 +1,20 @@
 ------------------------------------------------------------------------------------------------------------------------------
-1. async, await
+1. await in loop
 
-async used to create asynchronous functions.
-await to permit the function behaviour.
+await can be used inside a loop
 ------------------------------------------------------------------------------------------------------------------------------
-2. Object.values()
+2. promise.finally()
 
-this returns the values of any Object.
+using finally() in promise.
+block always gets executed. 
 ------------------------------------------------------------------------------------------------------------------------------
-3. Object.values()
+3. rest
 
-this returns field name and it value as key value pairs.
+using ...rest in function parameter makes it accept multiple arguments.
 ------------------------------------------------------------------------------------------------------------------------------
-4. padStart() & padEnd()
+4. REGEXP
 
-it will add any mentioned string until the string if of mentioned length
-let str  ='bak'; //length = 3
-str = str.padEnd(7,' '); //'bak    ' length = 7
+used with strings for conditions
+const regExpDate = /([0-9]{4})-([0-9]{2})-([0-9]{2})/
+const match = regExpDate.exec('2020-06-25');
 ------------------------------------------------------------------------------------------------------------------------------
