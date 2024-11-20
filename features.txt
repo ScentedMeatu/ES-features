@@ -1,16 +1,14 @@
 ------------------------------------------------------------------------------------------------------------------------------
-1. promise.allSettled
+1. promise.any()
 
-this traverses array of promises to give the result of all resolved promises.
+returns a single promise that fullfills the condition
 ------------------------------------------------------------------------------------------------------------------------------
-2. optional chaining
+2. logical assignment operator
 
-using ternary operator ?.
+||= &&= ??= acts same concept as +=
 ------------------------------------------------------------------------------------------------------------------------------
-3. nullish coalesing operator ??
+3. weak reference
 
-0 is considered false.
-so we use ?? to avoid that.
-let value = 0;
-let num = value??1;
+it exist such that it points towards an object but when the original or strong reference dereference object. object is
+garbage collected without caring about weak reference.
 ------------------------------------------------------------------------------------------------------------------------------
