@@ -1,10 +1,20 @@
 ------------------------------------------------------------------------------------------------------------------------------
-1. includes()
+1. async, await
 
-method used to check if the element is present in array or not
+async used to create asynchronous functions.
+await to permit the function behaviour.
 ------------------------------------------------------------------------------------------------------------------------------
-2. Exponential operator
+2. Object.values()
 
-used as power
-console.log(2**3)//8
+this returns the values of any Object.
+------------------------------------------------------------------------------------------------------------------------------
+3. Object.values()
+
+this returns field name and it value as key value pairs.
+------------------------------------------------------------------------------------------------------------------------------
+4. padStart() & padEnd()
+
+it will add any mentioned string until the string if of mentioned length
+let str  ='bak'; //length = 3
+str = str.padEnd(7,' '); //'bak    ' length = 7
 ------------------------------------------------------------------------------------------------------------------------------
